@@ -1,7 +1,9 @@
 # Tugas 3
 
 Nama: Regita Maulia Gani Nur Rahman
+
 NIM: H1D022021
+
 Shift: C
 
 ## Penjelasan
