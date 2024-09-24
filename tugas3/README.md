@@ -20,6 +20,7 @@ _username = prefs.getString('username') ?? 'Teman Pendaki';
 mengambil nilai string 'username' dari SharedPreferences
 
 ![Tampilan Home jika sudah login](image-6.png)
+
 (Tampilan Home jika sudah login)
 
 
