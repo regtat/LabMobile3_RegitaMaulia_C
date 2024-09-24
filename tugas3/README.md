@@ -19,18 +19,18 @@ Future<void> _loadUsername() async => memuat nusername dari penyimpanan lokal me
 _username = prefs.getString('username') ?? 'Teman Pendaki';
 mengambil nilai string 'username' dari SharedPreferences
 
-(Tampilan Home jika sudah login) ![Tampilan Home jika sudah login](image-6.png)
+ ![Tampilan Home jika sudah login](image-6.png)
 
 
 jika belum login, maka akan menampilkan nilai default yaitu 'Teman Pendaki'
-![Tampilan Home jika belum login](image-8.png)
+ ![Tampilan Home jika belum login](image-8.png)
 
 obscureText meyembunyikan teks yang dimasukkan di kolom password agar lebih aman
-![LoginPage dengan inputan username='user' dan password='password](image-1.png)
+ ![LoginPage dengan inputan username='user' dan password='password](image-1.png)
 
 _login method memeriksa inputan user (username dan password) valid ('user' dan 'password'), jika login berhasil, username disimpan di SharedPreferences, lalu user diarahkan ke halaman utama (/home) menggunakan Navigator.pushReplacementNamed
 jika salah, maka akan ditampilkan SnackBar
-![SnackBar muncul jika inputan tidak sesuai](image-3.png)
+ ![SnackBar muncul jika inputan tidak sesuai](image-3.png)
 
 
 Class HomePage menggunakan StatefulWidget yang menampilkan halaman utama setelah user login
@@ -42,12 +42,12 @@ void initState() method ini dipanggil saat objek State pertama kali dibuat, mema
 build method ini mengatur halaman utama menggunakan Scaffold
 
 AppBar menampilkan judul seperti "About" di bagian atas layar
-![Halaman About](image-4.png)
+ ![Halaman About](image-4.png)
 
 Body menampilkan teks "Berita? Coming Soon."
-![Halaman Berita](image-5.png)
+ ![Halaman Berita](image-5.png)
 
-![HomePage dengan memanggil username inputan untuk ditampilkan](image-6.png)
+ ![HomePage dengan memanggil username inputan untuk ditampilkan](image-6.png)
 
 
 Class SideMenu extends StatelessWidget widget yang menampilkan menu samping untuk navigasi
@@ -55,7 +55,7 @@ Class SideMenu extends StatelessWidget widget yang menampilkan menu samping untu
 ListTile untuk membuat item menu yang dapat diklik untuk navigasi ke halaman lain
 
 fungsi onTap untuk mengarahkan user ke halaman yang sesuai saat item menu diklik
-![SideMenu](image-7.png)
+ ![SideMenu](image-7.png)
 
 Routing =
 initialRoute: '/login',
