@@ -16,11 +16,12 @@ _usernameController dan _passwordController adalah instance dari TextEditingCont
 
 Future<void> _loadUsername() async => memuat nusername dari penyimpanan lokal menggunakan SharedPreferences.
 
-_username = prefs.getString('username') ?? 'Guest';
+_username = prefs.getString('username') ?? 'Teman Pendaki';
 mengambil nilai string 'username' dari SharedPreferences
 ![Tampilan Home jika sudah login](image-6.png)
 
-jika belum login, maka akan menampilkan nilai default yaitu 'Guest'
+jika belum login, maka akan menampilkan nilai default yaitu 'Teman Pendaki'
+(Tampilan Home jika belum login)
 ![Tampilan Home jika belum login](image-8.png)
 
 obscureText meyembunyikan teks yang dimasukkan di kolom password agar lebih aman
