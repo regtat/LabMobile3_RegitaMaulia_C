@@ -48,8 +48,6 @@ AppBar menampilkan judul seperti "About" di bagian atas layar
 Body menampilkan teks "Berita? Coming Soon."
  ![Halaman Berita](image-5.png)
 
- ![HomePage dengan memanggil username inputan untuk ditampilkan](image-6.png)
-
 
 Class SideMenu extends StatelessWidget widget yang menampilkan menu samping untuk navigasi
 
