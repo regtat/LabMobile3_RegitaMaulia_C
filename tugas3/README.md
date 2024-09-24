@@ -30,6 +30,7 @@ obscureText meyembunyikan teks yang dimasukkan di kolom password agar lebih aman
 
 _login method memeriksa inputan user (username dan password) valid ('user' dan 'password'), jika login berhasil, username disimpan di SharedPreferences, lalu user diarahkan ke halaman utama (/home) menggunakan Navigator.pushReplacementNamed
 jika salah, maka akan ditampilkan SnackBar
+
 ![SnackBar muncul jika inputan tidak sesuai](image-3.png)
 
 
